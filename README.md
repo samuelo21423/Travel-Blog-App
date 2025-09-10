@@ -37,6 +37,12 @@ A full-stack travel log application where users can register, log in, and share 
 ### Login Page  
 ![Login Page](screenshots/login.png)  
 
+### Register Page  
+![Register Page](screenshots/register.png)  
+
+### Profile Page  
+![Profile Page](screenshots/profile.png)  
+
 ### Travel Logs Page  
 ![Travel Logs](screenshots/travel-logs.png)  
 
