@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# 🌍 Travel Blog App  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack travel log application where users can register, log in, and share their travel experiences or future journey plans. Built with **React, Node.js, Express, and MySQL** for a clean, responsive, and interactive web experience. 
 
-## Available Scripts
+## ✨ Features  
 
-In the project directory, you can run:
+- 🔐 **Authentication**: Register & log in with secure password hashing (bcrypt).  
+- 📝 **Travel Logs**: Create, view, edit, and delete travel logs with title, description, dates, and tags.  
+- 🗺️ **Journey Plans**: Plan future trips by adding destinations, activities, and travel dates.  
+- 📂 Organized **frontend & backend structure** with controllers, routes, and models.  
+- 🌐 RESTful API communication using **Axios**.  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Frontend**  
+- React  
+- React Router  
+- Axios  
+- CSS  
 
-### `npm test`
+**Backend**  
+- Node.js  
+- Express  
+- bcrypt for authentication  
+- dotenv for environment variables  
+- CORS  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Database**  
+- MySQL  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📸 Screenshots  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Login Page  
+![Login Page](screenshots/login.png)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Travel Logs Page  
+![Travel Logs](screenshots/travel-logs.png)  
 
-### `npm run eject`
+### Journey Plans Page  
+![Journey Plans](screenshots/journey-plans.png)  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# 1. Clone the Repository
+git clone https://github.com/samuelo21423/Travel-Blog-App.git
+cd Travel-Blog-App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 2. Install Dependencies
 
-## Learn More
+# Backend
+cd backend
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Frontend
+cd ../frontend
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 3. Configure Environment Variables
+# Create a .env file inside backend/ with your database credentials and JWT secret:
+# Example:
+# DB_HOST=localhost
+# DB_USER=root
+# DB_PASSWORD=yourpassword
+# DB_NAME=travel_blog
+# JWT_SECRET=yourSecretKey
 
-### Code Splitting
+# 4. Run the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Backend
+cd ../backend
+npm start
 
-### Analyzing the Bundle Size
+# Frontend
+cd ../frontend
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 5. Access the App
+# Open your browser and go to http://localhost:3000
+# Register a user, log in, create travel logs, and plan journeys.
